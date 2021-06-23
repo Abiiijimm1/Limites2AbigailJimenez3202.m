@@ -1,0 +1,18 @@
+clear
+% Rango de -3-3 en i=0.1
+x=[-5:1:5];
+
+% Funcion
+y=((10-(x)));
+
+% Grafica 
+plot (x,y);
+
+% Titulo
+title("Funcion f(x)=10-x");
+
+% Etiqueta de x
+xlabel("X");
+
+% Etiqueta de y
+ylabel("Y");
